@@ -1,4 +1,3 @@
- 
 # JAVA  
 This repo contain java prectice code like pattern, basic terminogory, DSA Algorithms. 
 
