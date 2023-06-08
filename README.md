@@ -3,7 +3,7 @@ This repo contain java prectice code like pattern, basic terminogory, DSA Algori
 
 ## Screenshots  
 
-![App Screenshot](https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png)
+![App Screenshot](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Pattern-Printing-in-Java.jpg)
 
 # Table of contents  
 1. [Square Hollow Pattern](#)  
