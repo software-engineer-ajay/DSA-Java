@@ -9,7 +9,9 @@ This repo contain java practice code like pattern, basic terminology, DSA Algori
 ## Data Structure
 1. [Queue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Queue.java)
 2. [CircularQueue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/CircularQueue.java)
-1. [PriorityQueue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/PriorityQueue.java)
+3. [PriorityQueue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/PriorityQueue.java)
+4. [Deque.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Deque.java)
+5. [Stack.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Stack.java)
 ## Pattern
 1. [Square Hollow Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/SquareHollowPattern.java)  
 2. [Number triangle Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberTrianglePattern.java)  
