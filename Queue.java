@@ -1,16 +1,17 @@
 /**
  * Basic operation of queue
- * --Enqueue
- * --Dequeue
- * --isEmpty
- * --isFull
- * --Peek
+ * --Enqueue -> Add an element to the end of the queue
+ * --Dequeue -> Remove an element from the front of the queue
+ * --isEmpty -> Check if the queue is empty
+ * --isFull -> Check if the queue is full
+ * --Peek -> Get the value of the front of the queue without removing it
  */
 
 public class Queue {
     int SIZE = 5;
     int items[] = new int[SIZE];
-    int front, rear;
+    int front;
+    int rear;
 
     Queue() {
         // default constructor
@@ -32,6 +33,10 @@ public class Queue {
         return false;
     }
 
+    int size() {
+        return (rear - front) + 1;
+    }
+
     void enQueue(int element) {
         if (isFull()) {
             System.out.println("Queue is full");
@@ -40,7 +45,7 @@ public class Queue {
                 front = 0;
             rear++;
             items[rear] = element;
-            System.out.println("Inserted" + element);
+            System.out.println("Inserted: " + element);
         }
     }
 
@@ -62,17 +67,29 @@ public class Queue {
         }
     }
 
+    int peek() {
+        if (isEmpty()) {
+            System.out.println("Empty Queue.");
+            return -1;
+        } else {
+            System.out.println("Peek Item -> " + items[0]);
+            return items[0];
+        }
+    }
+
     void display() {
         int i;
         if (isEmpty()) {
             System.out.println("Empty Queue.");
         } else {
             System.out.println("\nFront index -> " + front);
-            System.out.println("Items -> ");
+            System.out.print("Items -> ");
             for (i = front; i <= rear; i++) {
                 System.out.print(items[i] + " ");
             }
-            System.out.println("\nRear index -> " + rear);
+            System.out.print("\nRear index -> " + rear);
+            System.out.println("\nAvailable Element count -> " + size() + '\n');
+
         }
     }
 
@@ -88,6 +105,7 @@ public class Queue {
         q.enQueue(3);
         q.enQueue(4);
         q.enQueue(5);
+        q.peek();
 
         // 6th element can't be added to because the queue is full
         q.enQueue(6);
@@ -98,6 +116,12 @@ public class Queue {
         q.deQueue();
 
         // Now we have just 4 elements
+        q.display();
+
+        // deQueue removes element entered first i.e. 1
+        q.deQueue();
+
+        // Now we have just 3 elements
         q.display();
 
     }
