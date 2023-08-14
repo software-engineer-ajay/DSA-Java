@@ -1,21 +1,26 @@
-# JAVA  
-This repo contain java practice code like pattern, basic terminology, DSA Algorithms. 
+# JAVA
 
-## Screenshots  
+This repo contain java practice code like pattern, basic terminology, DSA Algorithms.
+
+## Screenshots
 
 ![App Screenshot](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Pattern-Printing-in-Java.jpg)
 
-# Table of contents  
+# Table of contents
+
 ## Data Structure
+
 1. [Queue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Queue.java)
 2. [CircularQueue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/CircularQueue.java)
 3. [PriorityQueue.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/PriorityQueue.java)
 4. [Deque.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Deque.java)
 5. [Stack.java](https://github.com/software-engineer-ajay/DSA-Java/blob/master/Stack.java)
+
 ## Pattern
-1. [Square Hollow Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/SquareHollowPattern.java)  
-2. [Number triangle Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberTrianglePattern.java)  
-3. [Number-increasing Pyramid Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberIncreasingPyramidPattern.java)  
+
+1. [Square Hollow Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/SquareHollowPattern.java)
+2. [Number triangle Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberTrianglePattern.java)
+3. [Number-increasing Pyramid Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberIncreasingPyramidPattern.java)
 4. [Number-increasing reverse Pyramid Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberIncreasingReversePyramidPattern.java)
 5. [Number-changing Pyramid Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/NumberChangingPyramidPattern.java)
 6. [Zero-One triangle Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/ZeroOneTriangle.java)
@@ -36,10 +41,9 @@ This repo contain java practice code like pattern, basic terminology, DSA Algori
 21. [Hollow Diamond Pyramid](https://github.com/software-engineer-ajay/DSA-Java/blob/master/HollowDiamondPyramid.java)
 22. [Hollow Hourglass Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/HollowHourglassPattern.java)
 23. [Pascal’s Triangle](https://github.com/software-engineer-ajay/DSA-Java/blob/master/PascalsTriangle.java)
-24. [Right Pascal’s Triangle](https://github.com/software-engineer-ajay/DSA-Java/blob/master/)
-25. [K Pattern](KPattern.java)
+24. [Right Pascal’s Triangle](https://github.com/software-engineer-ajay/DSA-Java/blob/master/RightPascalTriangle.java)
+25. [K Pattern](https://github.com/software-engineer-ajay/DSA-Java/blob/master/KPattern.java)
 
-
-## License  
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
